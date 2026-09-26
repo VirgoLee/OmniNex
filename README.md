@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="assets/logo.png" width="96" alt="OmniNex"/>
+<img src="https://github.com/user-attachments/assets/a0020c27-6e10-4c96-bb38-a7f6c20aff8e" width="96" alt="OmniNex"/>
+
 
 # 天演玄机 · OmniNex
 
@@ -27,13 +28,14 @@
 ## 📸 界面一览
 
 <p align="center"><b>🌌 星云暗色主题 · 拓扑编排画布</b><br/>
-<img src="assets/nebula.jpg" width="560" alt="拓扑画布"/></p>
+<img src="https://github.com/user-attachments/assets/5977ed03-11d6-4d25-9fe8-60cd91181fce" width="560" alt="拓扑画布"/></p>
 
 <p align="center"><b>🔍 连线抓包 · 实时协议解析</b><br/>
-<img src="assets/capture.jpg" width="560" alt="连线抓包"/></p>
+<img src="https://github.com/user-attachments/assets/7a4c0b7f-5ac8-4bff-a56e-b8310d462c99" width="560" alt="连线抓包"/></p>
 
 <p align="center"><b>🖥️ 双击设备 · Kali 图形桌面</b><br/>
-<img src="assets/dock.jpg" width="560" alt="图形桌面"/></p>
+<img width="1080" height="534" alt="dock" src="https://github.com/user-attachments/assets/a6538d7c-f79d-437c-97c4-81a5373779a4"alt="图形桌面"/></p>
+
 
 <p align="center"><b>🌐 链路代理 · 对接 Burp Suite</b><br/>
 <img src="assets/proxy.jpg" width="560" alt="链路代理"/></p>
