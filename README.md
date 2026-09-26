@@ -65,6 +65,40 @@
 ## 🚀 使用方式
 
 ### 方式一 · Windows + WSL2（推荐，本机一键部署）
+#### 安装WSL2
+```bash
+WSL下载
+https://github.com/microsoft/WSL/releases
+```
+下载下来之后，双击安装。
+#### 安装WSL Ubuntu
+```bash
+WSL Ubuntu下载
+https://mirrors.aliyun.com/ubuntu-cdimage/ubuntu-wsl/resolute/daily-live/20260925/resolute-wsl-amd64.wsl
+```
+下载下来之后，通过管理员身份运行PowerShell，运行：
+```bash
+wsl --install --name Ubuntu --from-file "E:\Users\leyilea\Downloads\resolute-wsl-amd64.wsl"  // 这里指代自己下载下来的wsl虚拟机
+```
+#### 安装后端
+```
+# PowerShell中进入WSL Ubuntu
+PS C:\WINDOWS\system32> wsl -d Ubuntu
+# 进入到 下载的OmniNex程序内，注意WSL的/mnt/e/对应物理机的E盘，具体位置按自己的目录决定
+leyilea@DESKTOP-8LS3RHH:/mnt/c/WINDOWS/system32$ cd /mnt/e/OmniNex-0.2.0-20260926/
+# 解压
+leyilea@DESKTOP-8LS3RHH:/mnt/e/OmniNex-0.2.0-20260926$ tar -xvf omninex-backend-linux.tar.gz
+
+# 进入并运行start-omninex.sh，会自动安装Docker、KVM、拉取基础镜像等【启动后端】
+leyilea@DESKTOP-8LS3RHH:/mnt/e/OmniNex-0.2.0-20260926$ cd /mnt/e/OmniNex-0.2.0-20260926/omninex-backend-1804/
+
+# 前台起，监听 0.0.0.0:7150（关终端即停）
+leyilea@DESKTOP-8LS3RHH:/mnt/e/OmniNex-0.2.0-20260926/omninex-backend-1804$ ./start-omninex.sh  
+# 或注册 systemd 开机自启+崩溃自愈（推荐）：
+leyilea@DESKTOP-8LS3RHH:/mnt/e/OmniNex-0.2.0-20260926/omninex-backend-1804$ sudo cp omninex-backend.service /etc/systemd/system/
+leyilea@DESKTOP-8LS3RHH:/mnt/e/OmniNex-0.2.0-20260926/omninex-backend-1804$ sudo sed -i "s|^User=.*|User=$(whoami)|" /etc/systemd/system/omninex-backend.service
+leyilea@DESKTOP-8LS3RHH:/mnt/e/OmniNex-0.2.0-20260926/omninex-backend-1804$ sudo systemctl daemon-reload && sudo systemctl enable --now omninex-backend
+```
 
 1. **下载安装包** `OmniNex_0.2.0_x64-setup.exe`（Releases 页），双击安装
 2. **启动 OmniNex**，程序自动开始环境体检：Windows 版本 → WSL2 → Ubuntu 发行版 → Docker/QEMU 逐项检测，缺什么给修复建议
