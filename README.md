@@ -106,6 +106,10 @@
 
 微信号：`L3Yia_` · GitHub：[Vinglcez/OmniNex](https://github.com/Vinglcez/OmniNex)
 
+我用夸克网盘分享了「OmniNex天演玄机
+链接：https://pan.quark.cn/s/63ac466ec44a
+提取码：d4d2
+
 交流 / 授权 / 问题反馈 / 内测合作，欢迎添加
 
 </div>
