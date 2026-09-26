@@ -105,17 +105,18 @@
 
 <div align="center">
 
-<img src="assets/wx-qr.jpg" width="220" alt="作者微信二维码"/>
+<img width="720" height="917" alt="wx-qr" src="https://github.com/user-attachments/assets/37192d42-6b70-419b-8e43-0b1854b28696" />
+
 
 **微信扫码添加作者**
 
-微信号：`L3Yia_` · GitHub：[Vinglcez/OmniNex](https://github.com/Vinglcez/OmniNex)
+微信号：`L3Yia_` · GitHub：[VirgoLee/OmniNex](https://github.com/VirgoLee/OmniNex)
 
 我用夸克网盘分享了「OmniNex天演玄机
 链接：https://pan.quark.cn/s/63ac466ec44a
 提取码：d4d2
 
-交流 / 授权 / 问题反馈 / 内测合作，欢迎添加
+交流 / 授权 / 问题反馈 / 合作，欢迎添加
 
 </div>
 
