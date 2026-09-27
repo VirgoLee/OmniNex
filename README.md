@@ -64,7 +64,8 @@
 
 ## 🚀 使用方式
 
-https://github.com/VirgoLee/OmniNex/blob/main/OmniNex%E9%83%A8%E7%BD%B2%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md
+[VirgoLee/OmniNex部署使用说明](https://github.com/VirgoLee/OmniNex/blob/main/OmniNex%E9%83%A8%E7%BD%B2%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)
+
 
 ## 📇 联系作者
 
