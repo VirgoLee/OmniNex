@@ -42,8 +42,8 @@ wsl --install -d Ubuntu
 
 上述命令速度较慢，所以可以使用如下离线方式：
 
--   WSL下载：https://github.com/microsoft/WSL/releases（下载之后双击安装即可）
--   WSL Ubuntu下载：https://mirrors.aliyun.com/ubuntu-cdimage/ubuntu-wsl/resolute/daily-live/20260925/resolute-wsl-amd64.wsl（使用下述命令在管理员 PowerShell中运行，其中--from-file来指定resolute-wsl-amd64.wsl文件位置）
+-   WSL下载：https://github.com/microsoft/WSL/releases【下载之后双击安装即可】
+-   WSL Ubuntu下载：https://mirrors.aliyun.com/ubuntu-cdimage/ubuntu-wsl/resolute/daily-live/20260925/resolute-wsl-amd64.wsl 【下述命令在管理员 PowerShell中运行，其中--from-file来指定resolute-wsl-amd64.wsl文件位置】 
 
 ```
 wsl --install --name Ubuntu --from-file "E:\Users\leyilea\Downloads\resolute-wsl-amd64.wsl"
